@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.170
+{:name chokuben.core, :doc nil, :excludes #{}, :use-macros nil, :require-macros {secretary secretary.core, secretary.core secretary.core}, :uses nil, :requires {secretary secretary.core, secretary.core secretary.core, chokuben.routes.index chokuben.routes.index, handlers chokuben.handlers, chokuben.handlers chokuben.handlers, subs chokuben.subs, chokuben.subs chokuben.subs}, :imports nil}
