@@ -7115,8 +7115,8 @@ a.bg-danger:focus, a.bg-danger:hover {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?v=4.6.2&1467365957);
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?v=4.6.2&1467365957#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff2?v=4.6.2&1467365957) format("woff2"), url(/fonts/font-awesome/fontawesome-webfont.woff?v=4.6.2&1467365957) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?v=4.6.2&1467365957) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?v=4.6.2&1467365957#fontawesomeregular) format("svg");
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?v=4.6.2);
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?v=4.6.2#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff2?v=4.6.2) format("woff2"), url(/fonts/font-awesome/fontawesome-webfont.woff?v=4.6.2) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?v=4.6.2) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?v=4.6.2#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10647,40 +10647,45 @@ body {
 }
 
 /* line 10, ../../../bootstrap/sass/partials/_base.scss */
+nav {
+  background-color: #333447;
+}
+
+/* line 14, ../../../bootstrap/sass/partials/_base.scss */
 h1 {
   font-size: 2.5em;
   font-weight: 900;
 }
 
-/* line 15, ../../../bootstrap/sass/partials/_base.scss */
+/* line 19, ../../../bootstrap/sass/partials/_base.scss */
 h2 {
   font-size: 1.5em;
   font-weight: 900;
 }
 
-/* line 20, ../../../bootstrap/sass/partials/_base.scss */
+/* line 24, ../../../bootstrap/sass/partials/_base.scss */
 .profile {
   color: #808080;
 }
 
-/* line 24, ../../../bootstrap/sass/partials/_base.scss */
+/* line 28, ../../../bootstrap/sass/partials/_base.scss */
 .profile h2, .profile h3 {
   color: #555555;
 }
 
-/* line 28, ../../../bootstrap/sass/partials/_base.scss */
+/* line 32, ../../../bootstrap/sass/partials/_base.scss */
 h3 {
   font-size: 1.35em;
   line-height: 1.5em;
   font-weight: 900;
 }
 
-/* line 34, ../../../bootstrap/sass/partials/_base.scss */
+/* line 38, ../../../bootstrap/sass/partials/_base.scss */
 header {
   margin-bottom: 2em;
 }
 
-/* line 38, ../../../bootstrap/sass/partials/_base.scss */
+/* line 42, ../../../bootstrap/sass/partials/_base.scss */
 i {
   border-radius: 100%;
   color: #fff;
@@ -10690,71 +10695,71 @@ i {
   margin-bottom: 1.5em;
 }
 
-/* line 47, ../../../bootstrap/sass/partials/_base.scss */
+/* line 51, ../../../bootstrap/sass/partials/_base.scss */
 .profile i {
   background-color: #e96c77;
 }
 
-/* line 51, ../../../bootstrap/sass/partials/_base.scss */
+/* line 55, ../../../bootstrap/sass/partials/_base.scss */
 i:before {
   font-size: 2em;
 }
 
-/* line 55, ../../../bootstrap/sass/partials/_base.scss */
+/* line 59, ../../../bootstrap/sass/partials/_base.scss */
 .container {
   padding: 4em;
 }
 
-/* line 59, ../../../bootstrap/sass/partials/_base.scss */
+/* line 63, ../../../bootstrap/sass/partials/_base.scss */
 .jumbotron {
   color: #fff;
   margin-bottom: 0;
 }
 
-/* line 64, ../../../bootstrap/sass/partials/_base.scss */
+/* line 68, ../../../bootstrap/sass/partials/_base.scss */
 .jumbotron p {
   color: #e96c77;
   font-size: 2em;
 }
 
-/* line 69, ../../../bootstrap/sass/partials/_base.scss */
+/* line 73, ../../../bootstrap/sass/partials/_base.scss */
 .profile {
   background-color: #f5f5f5;
 }
 
-/* line 73, ../../../bootstrap/sass/partials/_base.scss */
+/* line 77, ../../../bootstrap/sass/partials/_base.scss */
 .box {
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
   padding: 3em 2.25em;
 }
 
-/* line 78, ../../../bootstrap/sass/partials/_base.scss */
+/* line 82, ../../../bootstrap/sass/partials/_base.scss */
 .profile .box {
   background-color: #fff;
 }
 
-/* line 82, ../../../bootstrap/sass/partials/_base.scss */
+/* line 86, ../../../bootstrap/sass/partials/_base.scss */
 .wrapper {
   padding: 1em;
 }
 
-/* line 86, ../../../bootstrap/sass/partials/_base.scss */
+/* line 90, ../../../bootstrap/sass/partials/_base.scss */
 .service {
   background-color: #e96c77;
   color: #fbe8ea;
 }
 
-/* line 91, ../../../bootstrap/sass/partials/_base.scss */
+/* line 95, ../../../bootstrap/sass/partials/_base.scss */
 .service h2, .service h3 {
   color: #fff;
 }
 
-/* line 95, ../../../bootstrap/sass/partials/_base.scss */
+/* line 99, ../../../bootstrap/sass/partials/_base.scss */
 .service .box {
   background-color: #ec828c;
 }
 
-/* line 99, ../../../bootstrap/sass/partials/_base.scss */
+/* line 103, ../../../bootstrap/sass/partials/_base.scss */
 .service i {
   background-color: #5b5c6b;
 }
